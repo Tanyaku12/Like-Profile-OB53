@@ -20,7 +20,7 @@ Make Your Repo private! Otherwise, your guest ID password may be stolen
 
 Click below to deploy directly to **Vercel**:  
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/itz-paglu/Free-Fire-Like-API)  
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Tanyaku12/Like-Profile-OB53)  
 
 ### After Deploying
 1. Your project will automatically rely on `uidpass.json` and `tokens.json`.
@@ -39,7 +39,7 @@ After deploying to Vercel (or running locally), you can hit your API via simple 
 
 **Query Parameters:**
 - `uid` (Required): The Free Fire Player ID to send likes to.
-- `server_name` (Optional): Force a specific region (e.g., `IND`, `BD`, `BR`). If omitted, it will automatically parse the `lock_region` from your active token!
+- `server_name` (Optional): Force a specific region (e.g., `ID`, `BD`, `BR`). If omitted, it will automatically parse the `lock_region` from your active token!
 
 ### Example Request:
 ```bash
@@ -49,7 +49,7 @@ https://your-domain.com/like?uid=123456789
 ### Example Response:
 ```json
 {
-  "credit": "https://t.me/paglu_dev",
+  "credit": "https://t.me/Blinxxxxxxx",
   "LikesGivenByAPI": 100,
   "LikesafterCommand": 200,
   "LikesbeforeCommand": 100,
