@@ -16,15 +16,16 @@ import os
 
 app = Flask(__name__)
 
-
 def load_tokens():
     try:
         base_dir = os.path.dirname(os.path.abspath(__file__))
         token_path = os.path.join(base_dir, "tokens.json")
+        print(f"Looking for tokens at: {token_path}")  # tambah ini
         with open(token_path, "r") as f:
             tokens = json.load(f)
         return tokens
     except Exception as e:
+        print(f"Error loading tokens: {e}")  # tambah ini
         app.logger.error(f"Error loading tokens: {e}")
         return None
 
