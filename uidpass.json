@@ -28,7 +28,8 @@
     {
         "uid": "guest uid 8"
         "password": "guest password 8"
-    },{
+    },
+    {
         "uid": "guest uid 9",
         "password": "guest password 9"
     },
@@ -42,15 +43,9 @@
     {
         "uid": "guest uid 12"
         "password": "guest password 12"
-    },{
-        "uid": "guest uid 13",
-        "password": "guest password 13"
     },
     {
-        "uid": "guest uid 14",
-        "password": "guest password 15"
-    },
-    {   "uid":"guest uid 15",
-        "password": "guest password 15"
+        "uid": "guest uid 13",
+        "password": "guest password 13"
     }
 ]
